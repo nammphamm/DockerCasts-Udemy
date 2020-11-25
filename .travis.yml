@@ -1,7 +1,5 @@
 language: node_js
-include:
-  - dist: xenial
-  - dist: bionic
+dist: xenial
 services:
   - docker
 
